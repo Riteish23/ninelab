@@ -8,7 +8,7 @@ app = Flask(__name__)
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
 WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN")
 PHONE_NUMBER_ID = "1079652341888270"
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("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")
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
